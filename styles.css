@@ -20,16 +20,30 @@ h1 {
                  1px 25px 50px grey;
 }
 .name {
-   list-style: none;
+ 
    font-family: Arial, Helvetica, sans-serif;
   
 }
-.url {
+li {
     list-style: none;
+}
+.des {
+    text-align: center;
+    font-style: italic;
+}
+.url {
+  
     color: blue;
     padding-bottom: 10px;
+    text-align: center;
     
    
+}
+.url:hover {
+    transform: scale(1.2);
+    box-shadow:  0px 20px 30px 10px black;
+  background-color: white;
+    border-radius:50px;
 }
 .box {
     border: 2px solid black;
@@ -65,3 +79,4 @@ h1 {
         font-size: 30px;
     }
 }
+
