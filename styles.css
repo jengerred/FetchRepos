@@ -1,5 +1,6 @@
 
 h1 {
+    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
@@ -21,12 +22,13 @@ h1 {
 .name {
    list-style: none;
    font-family: Arial, Helvetica, sans-serif;
-    width: 30vw;
+  
 }
 .url {
     list-style: none;
     color: blue;
     padding-bottom: 10px;
+    
    
 }
 .box {
@@ -35,9 +37,10 @@ h1 {
     margin: 40px;
     box-shadow: 0 20px 30px 0 black;
     background-color: white;
+    max-width:40vw;
+  
 }
- 
-    
+
    .card {
    margin: 20px;
     border: 20px solid black;
@@ -47,7 +50,18 @@ h1 {
     max-width:50vw;
     margin-left: 25vw;
     background-color:rgb(220, 219, 219);
+    display: flex;
+    justify-content: space-around;
   
    }
 
-
+   @media only screen and (max-width: 800px) {
+    .card {
+       max-width: 90vw;
+       margin-left: 10px;
+       margin-right:0%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
