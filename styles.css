@@ -75,7 +75,9 @@ li {
 
    @media only screen and (max-width: 1250px) {
     .card {
-        padding-left: 20vw;
+        padding-left: 10vw;
+        padding-right: 10px;
+        margin-right: 40px;
        border: 20px solid black;
        display: flex;
        align-items: center;
