@@ -1,13 +1,53 @@
 
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgb(178, 174, 174),
+                 1px 2px 0px rgb(178, 174, 174),
+                 1px 3px 0px rgb(178, 174, 174),
+                 1px 4px 0px rgb(178, 174, 174),
+                 1px 5px 0px rgb(178, 174, 174),
+                 1px 6px 0px rgb(178, 174, 174),
+                 1px 10px 5px grey,
+                 1px 15px 10px grey,
+                 1px 20px 30px grey,
+                 1px 25px 50px grey;
+}
 .name {
    list-style: none;
    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
 }
 .url {
     list-style: none;
     color: blue;
+    padding-bottom: 10px;
+   
 }
-h1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 0 20px 30px 0 black;
+    background-color: white;
 }
+ 
+    
+   .card {
+   margin: 20px;
+    border: 20px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width:50vw;
+    margin-left: 25vw;
+    background-color:rgb(220, 219, 219);
+  
+   }
+
+
