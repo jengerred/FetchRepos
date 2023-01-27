@@ -4,7 +4,10 @@
 This project was an assignment for the MIT XPRO course. We were instructed to fetch data from a public API and display the data on the browser. I used my own github repositories API. I fetched data for repository name, description link to github page and link to the repository itself. I also styled it so that the repository info showed up in their own styled cards. 
 
 ## How to Run:  
-Go to the README.MD page to implement React - or - view it on codesandbox here: https://codesandbox.io/s/github/jengerred/FormikForm - Or - to see it live click here: https://jensformikform.netlify.app/
+view it on codesandbox here: https://codesandbox.io/s/github/jengerred/FormikForm - Or -  See it live here: https://jensformikform.netlify.app/
+
+## How to Install: 
+Go to the README.MD page to implement React.
 
 ## Roadmap of future improvements:: 
 I would like to add photos to each card to show a preview of the repository. I would like to possibly use this for my portfolio projects page if I can get all the elements and styling I need (including photos).
