@@ -38,7 +38,6 @@ li {
 .url {
   
     color: blue;
-    padding-bottom: 10px;
     text-align: center;
     
    
@@ -55,8 +54,8 @@ li {
     margin-left: 7vw;
     box-shadow: 0 20px 30px 0 black;
     background-color: white;
-    width: 30vw;
-    height: 300px;
+    width: 15vw;
+    height: 400px;
     max-width: 30vw;
     display: block;  
     float:left;
@@ -90,10 +89,19 @@ li {
         font-size: 30px;
     }
     .box {
-        height: fit-content;
+        height: 300px;
+        width: 30vw;
+        margin-left:20px;
     }
     .name {
         font-size: 14px;
     }
 }
+@media only screen and (max-width: 1046px) {
+    .box {
+        height: fit-content;
+        width: 30vw;
+        margin-left:20px;
+    }
 
+}
