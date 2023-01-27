@@ -1,13 +1,13 @@
 # FetchRepos
 
 ## Description:
-This project was an assignment for the MIT XPRO course. We were given some files and code to work with and were instructed to create form using Formik . The form must have an email as username and both fields cannot be empty. It is a basic sign in with username and password. 
+This project was an assignment for the MIT XPRO course. We were instructed to fetch data from a public API and display the data on the browser. I used my own github repositories API. I fetched data for repository name, description link to github page and link to the repository itself. I also styled it so that the repository info showed up in their own styled cards. 
 
 ## How to Run:  
 Go to the README.MD page to implement React - or - view it on codesandbox here: https://codesandbox.io/s/github/jengerred/FormikForm - Or - to see it live click here: https://jensformikform.netlify.app/
 
 ## Roadmap of future improvements:: 
-I would like to use this form if I needed a sign up and I would like to be able to save the input of the data for users to actually log in. 
+I would like to add photos to each card to show a preview of the repository. I would like to possibly use this for my portfolio projects page if I can get all the elements and styling I need (including photos).
 
 ## License information: 
 MIT License
