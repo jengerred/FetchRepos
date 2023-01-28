@@ -6,7 +6,7 @@ This project was an assignment for the MIT XPRO course. We were instructed to fe
 ## How to Run:  
 Just open it in the browser and click to see my repositories and pages.
 
-## Roadmap of future improvements:: 
+## Roadmap of future improvements: 
 I would like to add photos to each card to show a preview of the repository. I would like to possibly use this for my portfolio projects page if I can get all the elements and styling I need (including photos).
 
 ## License information: 
